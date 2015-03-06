@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		29415F7C1AA82ADE00A5AC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415F7B1AA82ADE00A5AC56 /* main.m */; };
 		29415F7F1AA82ADE00A5AC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415F7E1AA82ADE00A5AC56 /* AppDelegate.m */; };
-		29415F821AA82ADE00A5AC56 /* iOSChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29415F801AA82ADE00A5AC56 /* iOSChallenge.xcdatamodeld */; };
-		29415F851AA82ADE00A5AC56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415F841AA82ADE00A5AC56 /* ViewController.m */; };
+		29415F851AA82ADE00A5AC56 /* SelectItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415F841AA82ADE00A5AC56 /* SelectItemsViewController.m */; };
 		29415F881AA82ADE00A5AC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29415F861AA82ADE00A5AC56 /* Main.storyboard */; };
 		29415F8A1AA82ADE00A5AC56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29415F891AA82ADE00A5AC56 /* Images.xcassets */; };
 		29415F8D1AA82ADE00A5AC56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29415F8B1AA82ADE00A5AC56 /* LaunchScreen.xib */; };
 		29415F991AA82ADF00A5AC56 /* iOSChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415F981AA82ADF00A5AC56 /* iOSChallengeTests.m */; };
+		29415FA41AA836A800A5AC56 /* CircleButtonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415FA31AA836A800A5AC56 /* CircleButtonControl.m */; };
+		29415FA71AA98E9800A5AC56 /* ShowItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29415FA61AA98E9800A5AC56 /* ShowItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +34,18 @@
 		29415F7B1AA82ADE00A5AC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29415F7D1AA82ADE00A5AC56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29415F7E1AA82ADE00A5AC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29415F811AA82ADE00A5AC56 /* iOSChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSChallenge.xcdatamodel; sourceTree = "<group>"; };
-		29415F831AA82ADE00A5AC56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29415F841AA82ADE00A5AC56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29415F831AA82ADE00A5AC56 /* SelectItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectItemsViewController.h; sourceTree = "<group>"; };
+		29415F841AA82ADE00A5AC56 /* SelectItemsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectItemsViewController.m; sourceTree = "<group>"; };
 		29415F871AA82ADE00A5AC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29415F891AA82ADE00A5AC56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29415F8C1AA82ADE00A5AC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		29415F921AA82ADF00A5AC56 /* iOSChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29415F971AA82ADF00A5AC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29415F981AA82ADF00A5AC56 /* iOSChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChallengeTests.m; sourceTree = "<group>"; };
+		29415FA21AA836A800A5AC56 /* CircleButtonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButtonControl.h; sourceTree = "<group>"; };
+		29415FA31AA836A800A5AC56 /* CircleButtonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButtonControl.m; sourceTree = "<group>"; };
+		29415FA51AA98E9800A5AC56 /* ShowItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowItemsViewController.h; sourceTree = "<group>"; };
+		29415FA61AA98E9800A5AC56 /* ShowItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +89,15 @@
 			children = (
 				29415F7D1AA82ADE00A5AC56 /* AppDelegate.h */,
 				29415F7E1AA82ADE00A5AC56 /* AppDelegate.m */,
-				29415F831AA82ADE00A5AC56 /* ViewController.h */,
-				29415F841AA82ADE00A5AC56 /* ViewController.m */,
+				29415F831AA82ADE00A5AC56 /* SelectItemsViewController.h */,
+				29415F841AA82ADE00A5AC56 /* SelectItemsViewController.m */,
+				29415FA51AA98E9800A5AC56 /* ShowItemsViewController.h */,
+				29415FA61AA98E9800A5AC56 /* ShowItemsViewController.m */,
 				29415F861AA82ADE00A5AC56 /* Main.storyboard */,
+				29415FA21AA836A800A5AC56 /* CircleButtonControl.h */,
+				29415FA31AA836A800A5AC56 /* CircleButtonControl.m */,
 				29415F891AA82ADE00A5AC56 /* Images.xcassets */,
 				29415F8B1AA82ADE00A5AC56 /* LaunchScreen.xib */,
-				29415F801AA82ADE00A5AC56 /* iOSChallenge.xcdatamodeld */,
 				29415F791AA82ADE00A5AC56 /* Supporting Files */,
 			);
 			path = iOSChallenge;
@@ -222,9 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29415F821AA82ADE00A5AC56 /* iOSChallenge.xcdatamodeld in Sources */,
 				29415F7F1AA82ADE00A5AC56 /* AppDelegate.m in Sources */,
-				29415F851AA82ADE00A5AC56 /* ViewController.m in Sources */,
+				29415FA71AA98E9800A5AC56 /* ShowItemsViewController.m in Sources */,
+				29415F851AA82ADE00A5AC56 /* SelectItemsViewController.m in Sources */,
+				29415FA41AA836A800A5AC56 /* CircleButtonControl.m in Sources */,
 				29415F7C1AA82ADE00A5AC56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,19 +434,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		29415F801AA82ADE00A5AC56 /* iOSChallenge.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				29415F811AA82ADE00A5AC56 /* iOSChallenge.xcdatamodel */,
-			);
-			currentVersion = 29415F811AA82ADE00A5AC56 /* iOSChallenge.xcdatamodel */;
-			path = iOSChallenge.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 29415F6E1AA82ADE00A5AC56 /* Project object */;
 }

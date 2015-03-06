@@ -10,4 +10,7 @@
 
 @interface ShowItemsViewController : UIViewController
 
+
+@property NSMutableArray *optionsSelected;
+
 @end
