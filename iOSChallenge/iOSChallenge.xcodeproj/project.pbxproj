@@ -424,6 +424,7 @@
 				29415F9E1AA82ADF00A5AC56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29415F9F1AA82ADF00A5AC56 /* Build configuration list for PBXNativeTarget "iOSChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				29415FA11AA82ADF00A5AC56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
