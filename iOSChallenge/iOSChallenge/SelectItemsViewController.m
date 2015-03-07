@@ -133,14 +133,16 @@
         self.bottomRowRightConstraint.constant += self.view.frame.size.width;
         [self.view layoutIfNeeded];
 
-    } completion:nil];
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+            self.buttonGo.alpha = 1.0;
+            self.buttonShuffle.alpha = 1.0;
+            [self.view layoutIfNeeded];
 
-    [UIView animateWithDuration:0.3 delay:0.3 options:UIViewAnimationOptionCurveEaseOut animations:^{
-        self.buttonGo.alpha = 1.0;
-        self.buttonShuffle.alpha = 1.0;
-        [self.view layoutIfNeeded];
+        } completion:nil];
+    }];
 
-    } completion:nil];
+
 }
 
 
